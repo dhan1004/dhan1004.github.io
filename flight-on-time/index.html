@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>O'Hare Sucks — American Air Travel in 2025</title>
+        <title>Built to Fail — American Air Travel in 2025</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +14,12 @@
         <header class="masthead">
             <div class="masthead-inner">
                 <div class="masthead-meta">
-                    <span class="section-label">DATA 1500 FInal Project</span>
+                    <span class="section-label">DATA 1500 Final Project</span>
                     <span class="masthead-divider">·</span>
                     <span class="date">April 30, 2026</span>
                 </div>
                 <div class="masthead-rule"></div>
-                <h1 class="headline">O'Hare Sucks</h1>
+                <h1 class="headline">Built to Fail</h1>
                 <p class="deck">Flight delays across American airports are not caused by storms — they're caused by us. A look at where and why the system breaks down.</p>
                 <div class="masthead-rule masthead-rule--thin"></div>
                 <div class="byline-block">
@@ -32,13 +32,19 @@
         <!-- BODY -->
         <main class="content">
 
-            <img src="images/airport_wait.jpg" alt="Scatter plot of taxi-out vs. taxi-in times for major US airports">
+            <figure class="figure figure--photo">
+                <img src="images/airport_wait.jpg" alt="Passengers waiting at an airport gate">
+                <figcaption>Passengers at an airport gate. Over 3 million people fly through American airports every day.</figcaption>
+            </figure>
 
-            <p class="drop-cap">Over 3 million passengers fly in and out of American airports every day as air travel becomes more and more popular for long-distance travel. Flights themselves have become an efficient experience, with faster, fuel-efficient modern aircrafts and well-organized on-flight crew. But the experience surrounding the flight — the hours spent waiting at gates, sitting on tarmacs, watching departure boards tick later and later — has steadily gotten worse.</p>
+            <p class="drop-cap">Over 3 million passengers fly in and out of American airports every day as air travel becomes more and more popular for long-distance travel. Flights themselves have become an efficient experience, with faster, fuel-efficient modern aircraft and well-organized on-flight crew. But the experience surrounding the flight — the hours spent waiting at gates, sitting on tarmacs, watching departure boards tick later and later — has steadily gotten worse.</p>
 
             <p>The stress on air traffic infrastructure significantly increased in 2025 as the Federal Aviation Administration saw hundreds of staff cuts as part of a sweeping federal workforce reduction. Airport workers, from TSA agents to air traffic controllers, faced pay freezes and understaffing. Federal plans to cut funding for entire airports emerged in 2026, adding strain to airports across the country as flights were rerouted and redistributed.</p>
 
-            <p>These recent challenges have highlighted existing issues in air travel infrastructure, particularly around the timeliness of flights. Delays and even cancellations are common challenges faced by travellers. Looking at data from the Bureau of Transportation Statistics, we can track every flight from January to November 2025. The data reveals that the headaches of air travel are not evenly distributed: flight delays are concentrated to specific airports for reasons that might be unexpected.</p>
+            <p>These recent challenges have highlighted existing issues in air travel infrastructure, particularly around the timeliness of flights. Delays and even cancellations are common challenges faced by travelers. Looking at data from the Bureau of Transportation Statistics, we can track every flight from January to November 2025. The data reveals that the headaches of air travel are not evenly distributed: flight delays are concentrated to specific airports for reasons that might be unexpected.</p>
+
+            <!-- SECTION 1 -->
+            <h2 class="section-heading">The Ground Problem</h2>
 
             <figure class="figure">
                 <img src="images/fig1@2x.png" alt="Scatter plot of taxi-out vs. taxi-in times for major US airports">
@@ -47,7 +53,7 @@
 
             <p>Importantly, flight delays start before airplanes even take off into the air. They begin on the ground, in the slow crawl between gate and runway on the airport tarmac. Looking at the amount of time planes spend taxiing both to and from airport gates shows that most airports cluster in a predictable middle section, where the tradeoff between inbound and outbound ground time is manageable.</p>
 
-            <p>A few airports stand out from the general pattern. Chicago's O'Hare, one of the nation's busiest airports and an airport hub for layovers, is a significant outlier with extreme taxi time both leaving and arriving at gates. The three airports serving the New York City metropolitan area — JFK, LaGuardia, and Newark — all show extreme taxi times leaving the gate, although they do perform better in their taxi times arriving at the gate.</p>
+            <p>A few airports stand out from the general pattern. Chicago's O'Hare, one of the nation's busiest airports and an airport hub for layovers, is a significant outlier with extreme taxi time both leaving and arriving at gates. The three airports serving the New York City metropolitan area — JFK, LaGuardia, and Newark — all show extreme taxi times leaving the gate, although they perform better in their taxi times arriving at the gate.</p>
 
             <aside class="pull-quote">
                 <p>"Atlanta's Hartsfield-Jackson — the world's busiest airport — has shorter taxi times than all other airports of its size."</p>
@@ -55,7 +61,10 @@
 
             <p>What's equally striking is the airports that can handle enormous volume without the corresponding congestion. Atlanta's Hartsfield-Jackson — the world's busiest airport by passenger count for years — has shorter taxi times than all other airports of its size. Interestingly, Chicago's other major airport, Midway, performs significantly better in taxi time not only compared to O'Hare but also to most other major airports.</p>
 
-            <p>A long time spent on the tarmac can reflect poor planning on the airport's side. Travellers tend to blame extreme weather; snow and cold temperatures can lead to complications such as icy runways and low visibility. In reality, delays tend to be due to factors within human control.</p>
+            <p>A long time spent on the tarmac can reflect poor planning on the airport's side. Travelers tend to blame extreme weather; snow and cold temperatures can lead to complications such as icy runways and low visibility. In reality, delays tend to be due to factors within human control.</p>
+
+            <!-- SECTION 2 -->
+            <h2 class="section-heading">Blame the Airline, Not the Storm</h2>
 
             <figure class="figure">
                 <img src="images/fig2@2x.png" alt="Stacked bar chart of delay causes by airport">
@@ -65,6 +74,9 @@
             <p>Across the 20 American airports with the most delayed flights, weather is consistently the least common explanation for delayed flights. Even in cities known for extreme weather, such as Denver, Chicago, and Boston, weather delays do not exceed 50 flights. Instead, carrier issues — meaning the airline's own operations, including crew scheduling, baggage handling, and maintenance — and late aircraft make up the majority of reasons for delays.</p>
 
             <p>A plane that arrives late becomes a plane that departs late, which delays the passengers at the next city, who miss their connections. The effects ripple outward across the country's air travel network.</p>
+
+            <!-- SECTION 3 -->
+            <h2 class="section-heading">How a Day Unravels</h2>
 
             <figure class="figure">
                 <img src="images/fig3@2x.png" alt="Line chart of average departure delay by hour of day">
@@ -82,11 +94,14 @@
 
             <p>Chicago's O'Hare, in particular, shows an almost comical daily trend: the average delay minutes skyrocket after 6 pm. The average departure delay for late-evening ORD flights reaches 82 minutes, a 9-fold increase from the morning delay of 9 minutes.</p>
 
-            <img src="images/delay_screen.jpg" alt="Scatter plot of taxi-out vs. taxi-in times for major US airports">
+            <figure class="figure figure--photo">
+                <img src="images/delay_screen.jpg" alt="An airport departure board showing delayed flights">
+                <figcaption>A departure board at a major U.S. airport. By evening, delayed status is the norm rather than the exception.</figcaption>
+            </figure>
 
-            <p>For passengers, this means that one strategy to avoid long waits at the airport is to book early departures. Morning flights have yet to experience the effects of a full day of air traffic management issues and tend to leave around their scheduled time, providing an overall smoother travelling experience.</p>
+            <p>For passengers, this means that one strategy to avoid long waits at the airport is to book early departures. Morning flights have yet to experience the effects of a full day of air traffic management issues and tend to leave around their scheduled time, providing an overall smoother traveling experience.</p>
 
-            <p>Unlike popular discourse, the challenges of American air travel is less about storms and more about systemic infrastructure. Airports whose designs make ground movement slow and consistently lead to scheduling and management errors create consistently delayed flights that are frustrating for workers and travelers alike. As demand for cheap and fast air travel continues to grow, American airports and airlines will need to enact quickly if they want to fit their customer's needs.</p>
+            <p>Unlike popular discourse, the challenges of American air travel are less about storms and more about systemic infrastructure. Airports whose designs make ground movement slow and consistently lead to scheduling and management errors create consistently delayed flights that are frustrating for workers and travelers alike. As demand for cheap and fast air travel continues to grow, American airports and airlines will need to act quickly if they want to meet their customers' needs.</p>
 
         </main>
 
