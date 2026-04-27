@@ -154,17 +154,21 @@ body {
     color: var(--ink);
     max-width: var(--col-width);
     margin: 3em auto 1.2em;
-    padding-bottom: 10px;
-    border-bottom: 2px solid var(--rule);
+    padding-bottom: 14px;
+    border-bottom: 2px dashed var(--rule);
+    position: relative;
 }
 
+/* little plane at the right end of the dashed rule */
 .section-heading::before {
-    content: '';
-    display: block;
-    width: 28px;
-    height: 3px;
-    background-color: var(--accent-alt);
-    margin-bottom: 14px;
+    content: '✈';
+    position: absolute;
+    bottom: -0.65em;
+    right: 0;
+    font-size: 2rem;
+    line-height: 1;
+    color: var(--rule);
+    transform: translateY(-7px);
 }
 
 /* =============================================
