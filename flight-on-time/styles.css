@@ -246,7 +246,7 @@ p.drop-cap::first-letter {
    ============================================= */
 
 .figure {
-    max-width: var(--fig-width);
+    max-width: var(--col-width);
     margin: 2.4em auto 2.8em;
 }
 
